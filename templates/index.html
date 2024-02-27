@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forest Fire Prediction in Algeria</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2 {
+      color: #333;
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+    }
+    p {
+      color: #666;
+      margin-bottom: 10px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    ul li {
+      margin-bottom: 5px;
+    }
+    ul ul {
+      margin-left: 20px;
+    }
+    ul ul li {
+      margin-bottom: 2px;
+    }
+    .about, .eda, .ml-algorithms, .results, .future-work {
+      margin-bottom: 20px;
+    }
+    .about {
+      background-color: #f7f7f7;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    .eda {
+      background-color: #e3f2fd;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    .ml-algorithms {
+      background-color: #f0f4c3;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    .results {
+      background-color: #dcedc8;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    .future-work {
+      background-color: #ffe0b2;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    .btn {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      text-decoration: none;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Forest Fire Prediction in Algeria</h1>
+    <div class="about">
+      <h2>About the Dataset</h2>
+      <p>
+        The dataset used in this project contains information about forest fires that occurred in two regions of Algeria: Bejaia region and Sidi Bel-Abbes region, from June to September 2012. The data includes the following features:
+      </p>
+      <ul>
+        <li>Date (DD/MM/YYYY): Day, month (June to September), year (2012)</li>
+        <li>Weather data observations:
+          <ul>
+            <li>Temp: temperature noon (temperature max) in Celsius degrees (22 to 42)</li>
+            <li>RH: Relative Humidity in % (21 to 90)</li>
+            <li>Ws: Wind speed in km/h (6 to 29)</li>
+            <li>Rain: total day in mm (0 to 16.8)</li>
+          </ul>
+        </li>
+        <li>FWI Components:
+          <ul>
+            <li>Fine Fuel Moisture Code (FFMC) index from the FWI system (28.6 to 92.5)</li>
+            <li>Duff Moisture Code (DMC) index from the FWI system (1.1 to 65.9)</li>
+            <li>Drought Code (DC) index from the FWI system (7 to 220.4)</li>
+            <li>Initial Spread Index (ISI) index from the FWI system (0 to 18.5)</li>
+            <li>Buildup Index (BUI) index from the FWI system (1.1 to 68)</li>
+            <li>Fire Weather Index (FWI) Index (0 to 31.1)</li>
+          </ul>
+        </li>
+        <li>Classes: two classes, namely: fire and not fire</li>
+      </ul>
+      <p>
+        This dataset provides valuable information for understanding the patterns and causes of forest fires in Algeria, and can be used to predict future forest fires.
+      </p>
+    </div>
+    <div class="eda">
+      <h2>EDA</h2>
+      <p>
+        In order to gain insight into the patterns and trends of forest fires in Algeria, the data is analyzed and visualized in the EDA. In addition, the data is pre-processed in order to prepare it for use in the machine learning models.
+      </p>
+    </div>
+    <div class="ml-algorithms">
+      <h2>Machine Learning Algorithms</h2>
+      <p>
+        The following machine learning algorithms have been implemented on the data:
+      </p>
+      <ul>
+        <li>Logistic Regression</li>
+        <li>Decision Tree Classifier</li>
+        <li>Random Forest Classifier</li>
+        <li>XGB Classifier</li>
+      </ul>
+    </div>
+    <div class="results">
+      <h2>Results</h2>
+      <p>
+        The results of the machine learning models are compared and evaluated, and the best performing model is selected based on its accuracy.
+      </p>
+    </div>
+    <div class="future-work">
+      <h2>Future Work</h2>
+      <p>
+        This project can be further improved by using more advanced machine learning algorithms, and by incorporating additional data sources such as satellite imagery.
+      </p>
+    </div>
+     <div class="container">
+  <!-- Your content here -->
+       <h2>
+         FWI PREDICTION
+       </h2>
+         <a href="home.html" class="btn">FWI Prediction</a>
+	</div>
+</body>
+</html>
